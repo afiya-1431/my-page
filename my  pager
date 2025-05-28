@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<title>firey lists</title>
+<head>
+<style>
+body {
+   background:linear-gradient(to bottom ,maroon,brown,firebrick);
+   font-family:'segoe ui',sans-serif;
+   color:white;
+   padding:40px;
+}
+h1{
+text-align:center;
+color:orange;
+text-shadow:2px 2px 5px black;
+margin-bottom:40px;
+}
+section{
+  mar-width:600px;
+  margin:40px auto;
+  padding:40px;
+  border-radius:10px;
+  box-shadow:0 0 10px orange;
+}
+ .ul-section{
+     background:brown;
+     border-left:5px solid orange;
+}
+   .ul-section ul{
+       list-style-type:square;
+       padding-left:20px;
+}
+.ul-section li{
+   color:gold;
+   margin-bottom:10px;
+}
+  .ul-section li:hover {
+    color:tomato;
+    font-weight:bold;
+}
+   .ol-section{
+         background:saddlebrown;
+          border-left:5px solid crimson;
+}
+  .ol-section ol {
+     list-style-type:upper-roman;
+      padding-left:25px;
+  }
+.ol-section li {
+   color:oranger;
+    margin-bottom:10px;
+}
+ .ol-section li:hover{
+   color:yellow;
+   font-weight:bold;
+}
+  .dl-section{
+     background:firebrick;
+   border-left:5px solid darkred;
+}
+   .dl-section dt {
+       color:wheat;
+       margin-left:20px;
+      margin-bottom:10px;
+}
+   h2{
+color:gold;
+border:20px dashed orange;
+padding-bottom:5px;
+margin-bottom:15px;
+}
+</style>
+</head>
+<body>
+<h1>DRAGONS AND TEACH</h1>
+<section class="ul-section">
+<h2>REACH STREAMD</h2>
+<ul>
+   <li>HTML</li>
+   <li>CSS</li>
+<li>JAVA</li>
+<li>PYTHON</li>
+<li>JAVA FULL STACK</li>
+</ul>
+
+</section>
+<section class="ol-section">
+<h2> TEACH DRAGONS</h2>
+<ol>
+    <li> mountaneous mark rider</li>
+<li>sky surfer</li>
+<li> mercurian ridge back</li>
+<li>pyflame</li>
+<li>sky blue</li>
+</ol>
+<section>
+</section class="dl-section">
+<h2>Backdrop of SR Teach DRAGONS</h2>
+<dl>
+<dt>SR TEACH DRAGONS?</dt>
+<dd>To inspire and awaken the power to make them breathe code like fire</dd>
+</dl>
+</section>
+</body>
+</html>
